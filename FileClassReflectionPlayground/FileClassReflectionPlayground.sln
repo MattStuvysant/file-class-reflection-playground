@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileClassReflectionPlayground", "FileClassReflectionPlayground\FileClassReflectionPlayground.csproj", "{654F05CB-8F57-476F-8546-5ECA0A91A55E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileClassReflectionPlayground.Tests", "FileClassReflectionPlayground.Tests\FileClassReflectionPlayground.Tests.csproj", "{ACCF2942-0F16-45D3-A7FD-F716049DBAA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{42A01E17-BF27-42D5-8646-4422976B132C}"
+	ProjectSection(SolutionItems) = preProject
+		..\LICENSE = ..\LICENSE
+		..\README.md = ..\README.md
+		..\.gitignore = ..\.gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{654F05CB-8F57-476F-8546-5ECA0A91A55E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{654F05CB-8F57-476F-8546-5ECA0A91A55E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{654F05CB-8F57-476F-8546-5ECA0A91A55E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{654F05CB-8F57-476F-8546-5ECA0A91A55E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACCF2942-0F16-45D3-A7FD-F716049DBAA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACCF2942-0F16-45D3-A7FD-F716049DBAA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACCF2942-0F16-45D3-A7FD-F716049DBAA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACCF2942-0F16-45D3-A7FD-F716049DBAA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
