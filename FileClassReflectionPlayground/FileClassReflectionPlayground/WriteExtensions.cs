@@ -7,8 +7,6 @@ internal static class WriteExtensions
 {
     public static void Write(this Type t)
     {
-        var a = new A();
-
         Console.WriteLine($"Type: {t.Name}");
         t.Write(t => t.IsPublic);
         t.Write(t => t.IsNotPublic);
